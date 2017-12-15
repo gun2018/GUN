@@ -2,9 +2,9 @@
   <div>
     <h4 class="title">
         <div class="normal-title">
-            <a href="/sign/in">登陆</a>
+            <nuxt-link to="/sign/in">登陆</nuxt-link>
             <b>·</b>
-            <a href="/sign/up" class="active">注册</a>
+            <nuxt-link to="/sign/up" class="active">注册</nuxt-link>
         </div>
     </h4>
     <form class="sign-in-container">

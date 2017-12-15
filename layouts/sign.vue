@@ -1,28 +1,5 @@
 
 <style>
-.container {
-  padding: 20px;
-}
-label {
-  display: block;
-  margin-bottom: 20px;
-}
-body, html {
-  height: 100%;
-}
-* {
-  -webkit-box-sizing:border-box;
-  box-sizing:border-box;
-}
-a {
-  cursor: pointer;
-  text-decoration: none;
-}
-a:hover, a:visited, a:link, a:active {
-  text-decoration: none;
-  background-color: none;
-  -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
-}
 h4 {
   font-size: 18px;
 }

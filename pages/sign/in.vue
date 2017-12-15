@@ -2,9 +2,9 @@
   <div>
     <h4 class="title">
         <div class="normal-title">
-            <a href="/sign/in" class="active">登陆</a>
+            <nuxt-link to="/sign/in" class="active">登陆</nuxt-link>
             <b>·</b>
-            <a href="/sign/up">注册</a>
+            <nuxt-link to="/sign/up">注册</nuxt-link>
         </div>
     </h4>
     <form class="sign-in-container">
@@ -18,7 +18,7 @@
             <input type="checkbox" name="session[remember_me]" value="true" checked="checked" class="remember-check">
             <span class="remember-text">记住我</span>
         </div>
-        <a href="" class="problem-link">登陆遇到问题？</a>
+          <nuxt-link to="" class="problem-link">登陆遇到问题？</nuxt-link>
         <div class="sign-button sign-in">登陆</div>
     </form>
   </div>
