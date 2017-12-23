@@ -9,17 +9,17 @@
     </h4>
     <form class="sign-in-container">
         <div class="input-sign">
-            <input type="" name="" placeholder="邮箱">
+            <input type="text" name="" v-model="nickname" placeholder="邮箱或用户名">
         </div>
         <div class="input-sign input-especially">
-            <input type="" name="" placeholder="密码">
+            <input type="password" name="" v-model="password"  placeholder="密码">
         </div>
         <div class="remember-button">
             <input type="checkbox" name="session[remember_me]" value="true" checked="checked" class="remember-check">
             <span class="remember-text">记住我</span>
         </div>
           <nuxt-link to="" class="problem-link">登陆遇到问题？</nuxt-link>
-        <div class="sign-button sign-in">登陆</div>
+        <div class="sign-button sign-in" @click="signin">登陆</div>
     </form>
   </div>
 </template>

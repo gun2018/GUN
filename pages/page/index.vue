@@ -1,5 +1,5 @@
 <template>
-  <h5>跳转中...</h5>
+  <h5>跳转中</h5>
 </template>
 
 <script>
