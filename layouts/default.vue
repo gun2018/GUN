@@ -1,27 +1,6 @@
-<template>
-  <div>
-    <nuxt/>
-  </div>
-</template>
-<script type="text/javascript">
-import { mapState } from 'vuex';
-
-export default {
-  async created() {
-    if (process.browser && !this.userData) {
-      const { data } = await this.$get('/');
-      if (data) this.$store.commit('setUserData', data);
-    }
-  },
-  computed: {
-    ...mapState(['userData'])
-  }
-}
-</script>
 <style>
-html {
+/*html {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -62,5 +41,10 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
-}
+}*/
 </style>
+<template>
+  <div>
+    <nuxt/>
+  </div>
+</template>

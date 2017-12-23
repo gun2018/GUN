@@ -14,14 +14,15 @@ module.exports = {
       { rel: 'stylesheet', href: '//at.alicdn.com/t/font_507632_krrovy3yg50qw7b9.css' }
     ]
   },
+  css: [
+    '~static/css/index.css'
+  ],
   /*
   ** Customize the progress bar color
   */
   loading: { color: '#3B8070' },
   plugins: [
-    '~plugins/axios.js',
-    { src: '~plugins/flexible.js', ssr: false },
-    { src: '~assets/css/index.css', ssr: false },
+    '~plugins/axios.js'
   ],
   build: {
     /*
